@@ -16,8 +16,7 @@ def goto_adminui(aname):
 
     frame_operation = tk.LabelFrame(admin_window, text='操作界面', height=700,borderwidth=10)
 
-    tk.Label(frame_operation, text='   '+aname+',欢迎使用期刊管理系统（管理员）！请在左边栏选择你要进行的操作。',
-             bg='white', font=('等线', 14), width=70, height=1).pack()
+    tk.Label(frame_operation, text='   '+aname+',欢迎使用期刊管理系统（管理员）！请在左边栏选择你要进行的操作。',bg='white', font=('等线', 14), width=70, height=1).pack()
 
     def create_frame_operation():
         for widget in frame_operation.winfo_children():
